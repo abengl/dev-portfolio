@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
@@ -49,7 +49,9 @@
 						onclick="window.open('assets/pdfs/Resume_Alessandra _Godoy.pdf')">
 						Download Resume
 					</button>
-					<button class="btn btn-color-1" onclick="location.href='./#contact'">
+					<button
+						class="btn btn-color-1"
+						onclick="location.href = './#contact'">
 						Contact Me
 					</button>
 				</div>
@@ -58,7 +60,12 @@
 						src="./assets/images/linkedin.png"
 						alt="Linkedin profile"
 						class="icon"
-						onclick="window.open('https://linkedin.com/in/alessandragodoy-engineer', '_blank')" />
+						onclick="
+							window.open(
+								'https://linkedin.com/in/alessandragodoy-engineer',
+								'_blank',
+							)
+						" />
 					<img
 						src="./assets/images/github.png"
 						alt="GitHub profile"
@@ -112,7 +119,7 @@
 				src="./assets/images/arrow.png"
 				alt="Arrow icon"
 				class="icon arrow"
-				onclick="location.href='./#experience'" />
+				onclick="location.href = './#experience'" />
 		</section>
 		<section id="experience">
 			<p class="section__text__p1">Explore My</p>
@@ -255,7 +262,7 @@
 				src="./assets/images/arrow.png"
 				alt="Arrow icon"
 				class="icon arrow"
-				onclick="location.href='./#projects'" />
+				onclick="location.href = './#projects'" />
 		</section>
 		<section id="projects">
 			<p class="section__text__p1">Browse My Recent</p>
@@ -269,11 +276,18 @@
 								alt="Banking Transactions Microservice"
 								class="project-img" />
 						</div>
-						<h2 class="experience-sub-title project-title">Banking Transactions Microservice</h2>
+						<h2 class="experience-sub-title project-title">
+							Banking Transactions Microservice
+						</h2>
 						<div class="btn-container">
 							<button
 								class="btn btn-color-2 project-btn"
-								onclick="window.open('https://github.com/abengl/NTT-Project3-TransactionMs', '_blank')">
+								onclick="
+									window.open(
+										'https://github.com/abengl/NTT-Project3-TransactionMs',
+										'_blank',
+									)
+								">
 								Github
 							</button>
 							<button
@@ -290,11 +304,18 @@
 								alt="Taxi Fleet Management API REST"
 								class="project-img" />
 						</div>
-						<h2 class="experience-sub-title project-title">Taxi Fleet Management API REST</h2>
+						<h2 class="experience-sub-title project-title">
+							Taxi Fleet Management API REST
+						</h2>
 						<div class="btn-container">
 							<button
 								class="btn btn-color-2 project-btn"
-								onclick="window.open('https://github.com/abengl/Fleet-Management-API-EC2', '_blank')">
+								onclick="
+									window.open(
+										'https://github.com/abengl/Fleet-Management-API-EC2',
+										'_blank',
+									)
+								">
 								Github
 							</button>
 							<button
@@ -311,11 +332,15 @@
 								alt="Student Foro Hub API REST"
 								class="project-img" />
 						</div>
-						<h2 class="experience-sub-title project-title">Student Foro Hub API REST</h2>
+						<h2 class="experience-sub-title project-title">
+							Student Foro Hub API REST
+						</h2>
 						<div class="btn-container">
 							<button
 								class="btn btn-color-2 project-btn"
-								onclick="window.open('https://github.com/abengl/ForoHub', '_blank')">
+								onclick="
+									window.open('https://github.com/abengl/ForoHub', '_blank')
+								">
 								Github
 							</button>
 							<button
@@ -331,8 +356,45 @@
 				src="./assets/images/arrow.png"
 				alt="Arrow icon"
 				class="icon arrow"
-				onclick="location.href='./#contact'" />
+				onclick="location.href = './#contact'" />
 		</section>
+		<section id="contact">
+			<p class="section__text__p1">Get in Touch</p>
+			<h1 class="title">Contact Me</h1>
+			<div class="contact-info-upper-container">
+				<div class="contact-info-container">
+					<img
+						src="./assets/images/email.png"
+						alt="Email icon"
+						class="icon contact-icon email-icon" />
+					<p><a href="mailto:dev@alessandragodoy.com">Email</a></p>
+				</div>
+				<div class="contact-info-container">
+					<img
+						src="./assets/images/linkedin.png"
+						alt="LinkedIn icon"
+						class="icon contact-icon" />
+					<p>
+						<a href="https://www.linkedin.com/in/alessandragodoy-engineer/"
+							>LinkedIn</a
+						>
+					</p>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<nav>
+				<div class="nav-links-container">
+					<ul class="nav-links">
+						<li><a href="#about">About</a></li>
+						<li><a href="#experience">Experience</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+			<p>Copyright &#169; 2026 Alessandra Godoy. All Rights Reserved.</p>
+		</footer>
 		<script src="js/script.js"></script>
 	</body>
 </html>
